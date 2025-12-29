@@ -11,7 +11,7 @@ asset_dir = "assets"
 level = "z"
 
 [web.app]
-base_path = "rusty_casino"
+base_path = "rusty-casino"
 # HTML title tag content
 title = "Rusty Casino"
 
