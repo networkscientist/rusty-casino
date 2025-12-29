@@ -1,0 +1,33 @@
+a {
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    background-color: grey;
+    color: white;
+}
+
+button {
+    margin: 1rem;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    background-color: DodgerBlue;
+}
+
+.container div {
+    /*margin: auto;*/
+    background-color: #9b1c1c;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
