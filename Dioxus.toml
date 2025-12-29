@@ -1,0 +1,49 @@
+[application]
+
+# Web `build` & `serve` dist path
+out_dir = "docs"
+
+# resource (static) file folder
+asset_dir = "assets"
+
+[web.wasm_opt]
+# The level wasm-opt should target. z is the smallest. 4 is the fastest.
+level = "z"
+
+[web.app]
+base_path = "rusty_casino"
+# HTML title tag content
+title = "Rusty Casino"
+
+[web.watcher]
+
+index_on_404 = true
+
+watch_path = ["src", "examples"]
+
+[bundle]
+# Bundle identifier
+identifier = "io.github.rusty-casino"
+
+# Bundle publisher
+publisher = "rusty-casino"
+
+# Bundle icon
+icon = ["icons/icon.png"]
+
+# Bundle resources
+resources = ["assets/*"]
+
+# Bundle copyright
+copyright = ""
+
+# Bundle category
+category = "Utility"
+
+# Bundle short description
+short_description = "A Casino Game."
+
+# Bundle long description
+long_description = """
+A Casino Game.
+"""

@@ -1,0 +1,14 @@
+[package]
+name = "rusty_casino"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+dioxus = { version = "0.7.2", features = ["fullstack", "router"] }
+dioxus-primitives = { git = "https://github.com/DioxusLabs/components", version = "0.0.1", default-features = false, features = ["router"] }
+getrandom = {version =  "0.3.4",features = ["wasm_js"] }
+
+[features]
+default = ["web"]
+server = ["dioxus/server"]
+web = ["dioxus/web"]
