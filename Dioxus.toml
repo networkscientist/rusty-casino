@@ -1,7 +1,7 @@
 [application]
-
+name = "{{project-name}}"
 # Web `build` & `serve` dist path
-out_dir = "docs"
+out_dir = "dist"
 
 # resource (static) file folder
 asset_dir = "assets"
@@ -11,6 +11,7 @@ asset_dir = "assets"
 level = "z"
 
 [web.app]
+out_dir = "docs"
 base_path = "rusty-casino"
 # HTML title tag content
 title = "Rusty Casino"
